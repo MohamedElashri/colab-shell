@@ -6,7 +6,8 @@ from IPython.display import JSON, HTML, IFrame
 from subprocess import getoutput
 
 
-html_code_url = "../html/index.html"
+#html_code_url = "../html/index.html"
+html_code_url = "https://raw.githubusercontent.com/MohamedElashri/colab-shell/main/html/index.html"
 
 def _run_once(f):
     def wrapper(*args, **kwargs):
